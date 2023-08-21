@@ -45,7 +45,7 @@ const QuestionAnswerContainer = (props) => {
   }, []);
 
   return (
-    <div className="m-10">
+    <div className=" m-10">
       <div className="flex-row">
         <h3 className="text-xl">Questions & Answers</h3>
         <SearchBar questions={questions} filtered={filtered} onSearch={setFiltered} sortQuestions={sortQuestions} searching={searching} setSearching={setSearching}/>
