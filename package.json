@@ -30,6 +30,7 @@
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-stars": "^2.2.5",
     "react-multi-carousel": "^2.8.4",
     "redux": "^4.2.1",
     "tailwind": "^4.0.0",
@@ -51,6 +52,7 @@
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "^5.5.3",
+    "identity-obj-proxy": "^3.0.0",
     "jest-environment-jsdom": "^29.6.2",
     "jest-transform-stub": "^2.0.0",
     "nodemon": "^3.0.1",
@@ -69,7 +71,10 @@
     "transformIgnorePatterns": [
       "/node_modules/",
       "\\.css"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   },
   "main": ".eslintrc.js",
   "repository": {
