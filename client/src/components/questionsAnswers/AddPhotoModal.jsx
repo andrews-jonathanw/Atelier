@@ -5,7 +5,7 @@ const AddPhotoModal = () => {
 
   const fileInputs = () => {
     for (var i = 0; i < count; i++) {
-      return <PhotoFile count={count}/>;
+      return <PhotoFile setCount={setCount}/>;
     }
   };
 
