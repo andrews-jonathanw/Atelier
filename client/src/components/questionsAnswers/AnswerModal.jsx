@@ -24,8 +24,6 @@ const AnswerModal = ({modal, setModal, questionbody, questionid}) => {
           <form role="answer-form" className="ml-2 flex flex-col" onSubmit={(e) => {
             e.preventDefault();
             // e.target[0].value = 'this is a test';
-            // console.log(e.target[0].value);
-
             var form = {
               // eslint-disable-next-line camelcase
               body: e.target[0].value,
