@@ -16,9 +16,6 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        {/* React is running! Great job team! Now go to work..... */}
-      </h1>
       {/* <ProductDetails /> */}
       {/* <RelatedProducts/> */}
       <QuestionAnswerContainer />
