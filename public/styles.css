@@ -15,6 +15,28 @@
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
+.backdrop {
+  background-color: rgb(171, 178, 191);
+}
+
+.theLineQuestion {
+  position: absolute;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px auto;
+  width: 85%;
+  top: 25%;
+  bottom: 25%;
+  right: 0;
+}
+
+.sectionHeadingQuestion {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 200px;
+}
 .question-container {
   max-height: 100vh;
 }
@@ -76,7 +98,6 @@ margin-bottom: 2px
   height: auto;
 }
 .imageList{
-  background-color: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,6 +146,8 @@ margin-bottom: 2px
 }
 
 /* marker for review chars */
+
+
 .marker-triangle {
   position: absolute;
   width: 0;

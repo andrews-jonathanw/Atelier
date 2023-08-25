@@ -3,8 +3,8 @@ import axios from 'axios';
 import MetaRatings from './MetaRatings.jsx';
 import ReviewsList from './ReviewsList';
 
-const RatingReviews = () => {
-  const id = '37311';
+const RatingReviews = ({productId}) => {
+  const id = productId || '37311';
 
   const [reviewList, setReviewList] = useState([]);
   const [meta, setMeta] = useState([]);
