@@ -15,6 +15,25 @@
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
+
+.theLineQuestion {
+  position: absolute;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px auto;
+  width: 85%;
+  top: 25%;
+  bottom: 25%;
+  right: 0;
+}
+
+.sectionHeadingQuestion {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 200px;
+}
 .question-container {
   max-height: 100vh;
 }

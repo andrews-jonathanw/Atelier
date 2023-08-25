@@ -9,15 +9,20 @@ import ProductDetails from './productDetails/index.jsx';
 
 
 const App = () => {
-  const [currentProduct, setCurrentProduct] = useState(37971);
+  const [currentProduct, setCurrentProduct] = useState(37323);
   const [style, setStyle] = useState(225228);
 
   return (
-    <div>
-      <ProductDetails productId={currentProduct}/>
-      <RelatedProducts theId={currentProduct} sId={style}/>
+    <div className="flex flex-col justify-center mx-36">
+      <div className="mt-14">
+        {/* <ProductDetails productId={currentProduct}/> */}
+      </div>
+      <RelatedProducts theId={currentProduct} theSid={style}/>
       <QuestionAnswerContainer productId={currentProduct}/>
-      <RatingReviews productId={currentProduct}/>
+      <div className="mb-14">
+        <RatingReviews productId={currentProduct}/>
+      </div>
+
     </div>
   );
 };

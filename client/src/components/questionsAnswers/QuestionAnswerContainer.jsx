@@ -45,8 +45,11 @@ const QuestionAnswerContainer = ({productId}) => {
   }, []);
 
   return (
-    <div className="max-h-screen m-10 flex flex-col">
-      <h3 className="text-xl">Questions & Answers</h3>
+    <div className="max-h-screen my-10 flex flex-col">
+      <div className="relative flex flex-row flex-grow-1 justify-between">
+        <h2 className='sectionHeadingQuestion'> QUESTIONS & ANSWERS </h2>
+        <hr className="theLineQuestion" />
+      </div>
       <SearchBar questions={questions} filtered={filtered} onSearch={setFiltered} sortQuestions={sortQuestions} searching={searching} setSearching={setSearching}/>
       {!searching && <QuestionsList questions={questions} counter={counter}/>}
       {searching && <QuestionsList questions={filtered} counter={counter} searching={searching}/>}

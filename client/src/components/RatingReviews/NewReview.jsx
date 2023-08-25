@@ -56,7 +56,7 @@ const NewReview = ({ productID, form, setForm }) => {
     <>
       <div className="modal">
         <div onClick={changeForm} className="w-100vw h-100vh top-0 left-0 right-0 bottom-0 fixed bg-neutral-600 opacity-70"></div>
-        <div className="fixed top-30 right-2/4 translate-x-2/4 leading-6 bg-neutral-50 border-4 rounded w-2/4 h-4/5 max-w-screen overflow-hidden flex flex-col items-center overflow-y-auto">
+        <div className="fixed -top-4 right-2/4 translate-x-2/4 leading-6 bg-neutral-50 border-4 rounded w-2/4 h-4/5 max-w-screen overflow-hidden flex flex-col items-center overflow-y-auto">
           <h1 className="justify-center text-2xl font-bold m-2">New Review</h1>
           <p className="text-sm ml-2">About the {name}</p>
 

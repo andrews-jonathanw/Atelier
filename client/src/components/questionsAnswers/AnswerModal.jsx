@@ -22,9 +22,9 @@ const AnswerModal = ({modal, setModal, questionbody, questionid}) => {
 
   return (
     <>
-      <div className="relative modal">
+      <div className="modal">
         <div onClick={toggleModal} className="w-100vw h-100vh top-0 left-0 right-0 bottom-0 fixed bg-neutral-600 opacity-70 z-10 "></div>
-        <div className="fixed z-20 -top-4 mr-4 translate-y-1/4 translate-x-2/4 leading-6 bg-neutral-50 border-4 rounded max-h-3/4 w-2/4">
+        <div className="fixed z-20 -top-4 right-2/4 translate-y-1/4 translate-x-2/4 leading-6 bg-neutral-50 border-4 rounded max-h-3/4 w-2/4">
           <form role="answer-form" className="ml-2 flex flex-col" onSubmit={(e) => {
             e.preventDefault();
             var form = {
