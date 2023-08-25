@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="flex flex-col justify-center mx-36">
       <div className="mt-14">
-        {/* <ProductDetails productId={currentProduct}/> */}
+        <ProductDetails productId={currentProduct}/>
       </div>
       <RelatedProducts theId={currentProduct} theSid={style}/>
       <QuestionAnswerContainer productId={currentProduct}/>
