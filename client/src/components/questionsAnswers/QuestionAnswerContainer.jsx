@@ -4,8 +4,8 @@ import QuestionModal from './QuestionModal.jsx';
 import SearchBar from './SearchBar.jsx';
 import axios from 'axios';
 
-const QuestionAnswerContainer = (props) => {
-  const id = 37323;
+const QuestionAnswerContainer = ({productId}) => {
+  const id = productId || 37323;
   const count = 50;
   const [questions, setQuestions] = useState([]);
   const [filtered, setFiltered] = useState([]);

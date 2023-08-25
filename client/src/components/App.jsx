@@ -9,12 +9,15 @@ import ProductDetails from './productDetails/index.jsx';
 
 
 const App = () => {
+  const [currentProduct, setCurrentProduct] = useState(37971);
+  const [style, setStyle] = useState(225228);
+
   return (
     <div>
-      <ProductDetails />
-      <RelatedProducts/>
-      <QuestionAnswerContainer />
-      <RatingReviews />
+      <ProductDetails productId={currentProduct}/>
+      <RelatedProducts theId={currentProduct} sId={style}/>
+      <QuestionAnswerContainer productId={currentProduct}/>
+      <RatingReviews productId={currentProduct}/>
     </div>
   );
 };
