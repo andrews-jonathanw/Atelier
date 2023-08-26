@@ -20,7 +20,6 @@ const QuestionsList = (props) => {
       setShown(questions);
     } else {
       var temp = questions.slice(0, counter);
-      console.log('temp', temp);
       setShown(temp);
     }
   };
