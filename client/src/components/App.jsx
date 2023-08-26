@@ -28,7 +28,7 @@ const App = () => {
         <div className="mt-14">
           <ProductDetails productId={currentProduct}/>
         </div>
-        <RelatedProducts theId={currentProduct} theSid={style}/>
+        <RelatedProducts />
         <QuestionAnswerContainer productId={currentProduct}/>
         <div className="mb-14">
           <RatingReviews productId={currentProduct}/>
