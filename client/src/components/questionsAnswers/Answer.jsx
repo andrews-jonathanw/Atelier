@@ -52,6 +52,12 @@ const Answer = (props) => {
     return (
       <div role="answer" className="mt-1 mb-1">
         <p><label className="font-bold" >A:</label> {answer.body} </p>
+        {answer.photos.length > 0 &&
+          <div className="ml-10 mt-4 mb-2 flex flex-row h-41 w-72 space-x-3">
+            {answer.photos.map((photo, index) => {
+              return <img loading="lazy" height="41" width="72" src={photo} key={index} alt="answer-img"></img>;
+            })}
+          </div>}
         <div className="flex flex-auto w-124 text-xs text-gray-500"><p className="w-250">by {answer.answerer_name}, {moment.utc(answer.date).format('MMMM DD, YYYY')} </p><span className="text-xs flex-none w-4 ml-4">|</span><label className="mr-1">Helpful?</label>
 
           <button role="helpfulness-answer" className="underline text-xs" onClick={(e)=>{
@@ -61,12 +67,7 @@ const Answer = (props) => {
           <span className="text-xs">({helpfulness})</span><span className="text-xs flex-none w-4 ml-4">|</span><button role="report-answer" className="underline" onClick={(e)=>{
             reportAnswer(e);
           }}>Report </button></div>
-        {answer.photos.length > 0 &&
-          <div className="ml-10 mt-4 flex flex-row h-28 w-42 space-x-3">
-            {answer.photos.map((photo, index) => {
-              return <img className="" src={photo} key={index}></img>;
-            })}
-          </div>}
+
       </div>
     );
   }

@@ -6,8 +6,8 @@ import './related.css';
 
 
 const RelatedProducts = ({theId, theSid}) => {
-  const mainId = theId || 37971;
-  const sid = theSid || 225228;
+  const mainId = 37971;
+  const sid = 225228;
 
   return (
     <div className='mainRelated'>

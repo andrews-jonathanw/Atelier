@@ -15,6 +15,28 @@
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
+.backdrop {
+  background-color: rgb(171, 178, 191);
+}
+
+.theLineQuestion {
+  position: absolute;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px auto;
+  width: 85%;
+  top: 25%;
+  bottom: 25%;
+  right: 0;
+}
+
+.sectionHeadingQuestion {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 200px;
+}
 .question-container {
   max-height: 100vh;
 }
@@ -42,14 +64,14 @@ flex-shrink: 0;
 /* productDetails */
 
 .productOverview{
-border: 1px solid black;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 .Header{
-border: 1px solid pink;
+
 border-radius: 5%;
 width: 90vw;
 margin-bottom: 2px
@@ -59,36 +81,35 @@ margin-bottom: 2px
 }
 
 .productContainer{
-  border: 1px solid blue;
+
   width: 90vw;
   height: 50vw;
   display:flex;
   flex-direction: row;
 }
 .imageList{
-  border: 1px solid blue;
+
   width: 60vw;
   height: auto;
 }
 .detail{
-  border: 1px solid red;
+
   width: 30vw;
   height: auto;
 }
 .imageList{
-  background-color: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .prevButton{
   /* this should be nexted in middle of div on left */
-  border: 1px solid rgb(205, 87, 144);
+
   /* align-self: flex-start; */
 }
 .nextButton{
     /* this should be nexted in middle of div on right */
-  border: 1px solid orange;
+
   justify-self: flex-end;
 }
 .imgButton:hover {
@@ -103,6 +124,77 @@ margin-bottom: 2px
   border: 1px solid lavenderblush;
 }
 .currentImg{
-  border:2px solid lightcyan;
+
 }
 
+.addToCartContainer{
+  display: flex;
+}
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+
+
+  width: 150px;
+}
+
+/* marker for review chars */
+
+
+.marker-triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid slategray;
+  transform: translateX(-50%);
+}
+
+/* char bar */
+.char-bar {
+  background: linear-gradient(
+    to right,
+    rgb(226 232 240) 0%,
+    rgb(226 232 240) 31%,
+    transparent 32%,
+    transparent 34%,
+    rgb(226 232 240) 35%,
+    rgb(226 232 240) 64%,
+    transparent 65%,
+    transparent 67%,
+    rgb(226 232 240) 68%,
+    rgb(226 232 240) 100%
+  )
+}
+
+
+.menu > li {
+  margin: 0;
+
+  background-color: white;
+}
+
+.menu > li:hover {
+  background-color: lightgray;
+}
+.menu > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}

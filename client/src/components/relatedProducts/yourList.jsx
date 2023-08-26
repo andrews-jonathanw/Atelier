@@ -8,7 +8,7 @@ import ProductCard from './productCards.jsx';
 
 const YourList = ({ mainId, sid }) => {
   const [styleInfo, setStyleInfo] = React.useState([]);
-
+  console.log(sid);
   const handleAction = (outputId) => {
     const updatedStyleInfo = styleInfo.filter((style) => style.style_id !== outputId);
 
