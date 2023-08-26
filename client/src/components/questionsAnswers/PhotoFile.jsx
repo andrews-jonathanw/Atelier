@@ -29,7 +29,7 @@ const PhotoFile = () => {
       <div className="flex flex-row justify-center gap-1">
         {previewing && files.map((file)=> {
           let src = URL.createObjectURL(file);
-          return <img className="max-h-20 w-40 object-scale-down" src={src}></img>;
+          return <img loading="lazy" className="max-h-20 w-40 object-scale-down" alt="answer-modal-img" src={src}></img>;
         })}
       </div>
     </div>
