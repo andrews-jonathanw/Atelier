@@ -155,7 +155,7 @@ See the [open issues](https://github.com/TeamEvian/rfe2307-front-end-capstone/is
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/TeamEvian/rfe2307-front-end-capstone](https://github.com/TeamEvian/rfe2307-front-end-capstone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
