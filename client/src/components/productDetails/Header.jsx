@@ -21,7 +21,7 @@ const Header = ({currentProduct, allProducts, setCurrentProduct}) => {
   return (
     <div className='Header'>
       <div>
-        <h1 className="title">Driplo</h1>
+        <h1 className="title">Dripplo</h1>
         <span>
           <form onSubmit={searchProduct} className="searchBar" name="search">
             <label>
