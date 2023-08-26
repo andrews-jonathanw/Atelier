@@ -6,14 +6,14 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/TeamEvian/rfe2307-front-end-capstone">
+    <img src="image_480.png" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">Project Atelier</h3>
@@ -24,11 +24,9 @@
     <a href="https://github.com/TeamEvian/rfe2307-front-end-capstone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/TeamEvian/rfe2307-front-end-capstone">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/TeamEvian/rfe2307-front-end-capstone">Request Feature</a>
   </p>
 </div>
 
@@ -63,8 +61,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,14 +68,15 @@
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Babel][Babel.js]][Babel-url]
+* [![Node][Node.js]][Node-url]
+* [![Express][Express.js]][Express-url]
+* [![Axios][Axios.js]][Axios-url]
+* [![Webpack][Webpack.js]][Webpack-url]
+* [![Jest][Jest.js]][Jest-url]
+* [![AWS][AWS.js]][AWS-url]
+* [![Tailwind][Tailwind.js]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +98,8 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
+npm run build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,7 +109,11 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-> Some usage instructions
+> Start the app: use npm start
+
+> Open your web browser and navigate to `http://localhost:3000`.
+
+> Explore different sections of the app by clicking on the navigation links. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,13 +121,31 @@ npm install
 
 <!-- ROADMAP -->
 ## Roadmap
+- [ ] Store Landing Page
+    - [ ] Display storewide products
+    - [ ] User product selection 
+- [ ] Product Detail Page
+    - [ ] Product Overview
+        - [x] Fix CSS
+    - [ ] Related Products
+        - [x] Product comparison overview
+        - [x] Customer outfit selection
+        - [ ] Implement product image and detail caching
+        - [ ] Decrease inital api request count
+    - [ ] Question and Answers
+        - [x] Add answers to questions
+        - [x] Ask questions about product
+        - [x] Search for questions
+        - [ ] Photo magnification
+    - [ ] Product Reviews
+        - [x] Add review for product
+        - [x] Filter reviews
+        - [ ] Implement search bar
+        - [ ] Allow responses from seller
+- [ ] Mobile Responsive Design
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/TeamEvian/rfe2307-front-end-capstone/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +154,6 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -165,24 +182,25 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [stars-url]: https://github.com/TeamEvian/rfe2307-front-end-capstone/stargazers
 [issues-shield]: https://img.shields.io/github/issues/TeamEvian/rfe2307-front-end-capstone.svg?style=for-the-badge
 [issues-url]: https://github.com/TeamEvian/rfe2307-front-end-capstone/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[license-shield]: https://img.shields.io/github/license/TeamEvian/rfe2307-front-end-capstone.svg?style=for-the-badge
+[license-url]: https://github.com/TeamEvian/rfe2307-front-end-capstone/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Babel.js]: https://img.shields.io/badge/Babel-F9DC3E.svg?style=for-the-badge&logo=Babel&logoColor=black
+[Babel-url]: https://babeljs.io/
+[Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en
+[Jest.js]: https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white
+[Jest-url]: https://jestjs.io/
+[Axios.js]: https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white
+[Axios-url]: https://axios-http.com/docs/intro
+[Express.js]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
+[Express-url]: https://expressjs.com/
+[AWS.js]: https://img.shields.io/badge/Amazon%20AWS-232F3E.svg?style=for-the-badge&logo=Amazon-AWS&logoColor=white
+[AWS-url]: https://aws.amazon.com/
+[Webpack.js]: https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black
+[Webpack-url]: https://webpack.js.org/
+[Tailwind.js]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com
