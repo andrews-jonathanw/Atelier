@@ -19,7 +19,7 @@
 <h3 align="center">Project Atelier</h3>
 
   <p align="center">
-    We will be updating a clients retail web-portal that has become significantly outdated. This new project comprises a complete redesign of the retail portal designed to address this concern and modernize their site. We will be implementing a new user interface that will allow our customers to browse the items in the retail catalog. These user features will be focused on prioritizing the client experience and enabling customers to search, browse, add to cart, and checkout.
+    We updated a client's retail web-portal that had become significantly outdated. This project involved a complete redesign of the retail portal to address this concern and modernize their site. We implemented a fresh user interface, enabling our customers to effortlessly browse the items in the retail catalog. These user features prioritized the client experience, allowing customers to easily search, browse, add items to their cart, and checkout
     <br />
     <a href="https://github.com/TeamEvian/rfe2307-front-end-capstone"><strong>Explore the docs »</strong></a>
     <br />
